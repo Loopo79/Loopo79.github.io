@@ -1,0 +1,80 @@
+@font-face {
+    font-family: NotoSansTagalog;
+    src: url("fonts/NotoSansTagalog-Regular.ttf");
+    color: hsl(51, 91%, 78%);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #8f8f8f;
+}
+
+header > *:not(#site_title){
+    font-size: 1.3em;
+}
+header #site_title{
+    font-size: 1.8em;
+    padding: 5px;
+}
+header #site_title a{
+    text-decoration: none;
+    color: #ffffff;
+}
+header .horizontal_navbar{
+    display: flex;
+}
+header li::marker{
+    content: none;
+}
+header a{
+    padding: 5px;
+    text-decoration: none;
+    color: #cecece;
+}
+header a:hover{
+    color: #ffffff;
+}
+header #site_navbar #current_navbar_selection{
+    background-color: #252525;
+}
+header #sub_navbar{
+    background-color: #252525;
+}
+
+
+
+#sidebar{
+    position: absolute;
+    top: 120px;
+    right: 20px;
+}
+#search_form{
+    width: 200px;
+}
+#search_form input{
+    width: 100%;
+    background-color:hsl(0, 0%, 86%) ;
+}#search_form .submit_button{
+    border-radius: 5px;
+    background-color:hsl(0, 0%, 66%) ;
+}
+
+
+
+#content{
+    max-width: 800px;
+}
+#content p{
+    display: inline;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+#main_title{
+    text-align: center;
+    font-size: 2.2em;
+}
